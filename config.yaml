@@ -1,0 +1,12 @@
+---
+hostname: tacobell
+k3os:
+  password: "$1$tYtghCfK$QHa51MS6MVAcfUKuOzNKt0"
+write_files:
+- encoding: ""
+  content: |-
+    #!/bin/bash
+    echo hello, local service start
+  owner: root
+  path: /etc/local.d/example.start
+  permissions: '0755'
