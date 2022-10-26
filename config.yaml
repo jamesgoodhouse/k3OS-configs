@@ -1,7 +1,5 @@
 ---
 hostname: tacobell
-k3os:
-  password: "$1$tYtghCfK$QHa51MS6MVAcfUKuOzNKt0"
 write_files:
 - encoding: ""
   content: |-
