@@ -1,5 +1,4 @@
 ---
-hostname: tacobell
 write_files:
 - encoding: ""
   content: |-
